@@ -11,7 +11,7 @@ client.on('ready', () => {
 })
 
 const IGNORE_PREFIX = "!";
-const CHANNELS = ['yourchannelid']
+const CHANNELS = ['Your Discord Channel ID.']
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_KEY,
